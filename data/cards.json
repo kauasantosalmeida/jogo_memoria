@@ -1,0 +1,11 @@
+[
+    { "image": "./images/bernese-mountain.png", "name": "bernese" },
+    { "image": "./images/black-cat.png", "name": "black-cat" },
+    { "image": "./images/white-cat.png", "name": "white-cat" },
+    { "image": "./images/tiger-cat.png", "name": "tiger-cat" },
+    { "image": "./images/cat.png", "name": "smile-cat" },
+    { "image": "./images/cute.png", "name": "glasses-cat" },
+    { "image": "./images/dog.png", "name": "smile-dog" },
+    { "image": "./images/pet.png", "name": "white-dog" },
+    { "image": "./images/poodle.png", "name": "poodle" }
+]

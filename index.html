@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memoria</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Botão de exclamação -->
+    <button class="botao-exclamacao" onclick="mostrarPopup()">!</button>
+
+    <!-- Estrutura do pop-up -->
+    <div id="popup" class="popup">
+        <h1>Como Jogar</h1>
+        <p style="text-shadow: 1px 1px 5px black";>Neste jogo teste sua memória procurando cada par de animais nas cartas.</p>
+        <p style="text-align: center; color: rgba(241, 214, 178, 0.849);">Boa Sorte!</p>
+
+    </div>
+
+    <h1>Jogo da Memória</h1>
+    <div class="grid-container">
+    </div>
+    <p>Jogadas: <span class="score"></span></p>
+    <div class="actions">
+        <button onclick="restart()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
